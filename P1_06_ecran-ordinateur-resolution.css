@@ -1,0 +1,189 @@
+@media screen and (min-width: 1025px) and (max-width: 1600px){
+	html, body{
+		width: 100%;
+		height: auto;
+		box-sizing: content-box;
+		margin: auto;
+	}
+
+
+	.menu{
+		margin-top: -20px;
+	}
+
+	.section1{
+		margin: 0;
+		padding-bottom: 110px;
+	}
+
+	.section1 .text{
+		top: 30%;
+	}
+
+	.section1 .text h1{
+		width: 800px;
+		font-size: 180%;
+	}
+
+	.section1 div.ligne{
+		width: auto;
+	}	
+
+	.section1 .text div.ligne p{
+		font-size: 0.8em;
+		width: 640px;
+	}
+
+
+	.section2{
+		width: 100%;
+		margin-bottom: 31px;
+	}
+
+	.service:nth-child(1){margin-top: 2%;}
+
+	.nos_s h2{
+		font-size: 1.9em;
+	}
+
+	.cercle1{
+		margin-top: 9.5px;
+		width: 23px;
+		height: 23px;
+	}
+
+	.nos_s p{
+		margin-top: -36px;
+		font-size: 1.2em;
+	}
+
+	.service:nth-child(2){
+		padding: 0
+	}
+
+	.box:nth-child(1){
+		margin-left: 204px;
+	}
+
+	.box:nth-child(2){
+		width: 100%;
+		margin-left: 459px;
+	}
+
+	.img-container{
+		width: 100px;
+		height: 50px;
+	}
+
+	.img-container img.img-box{
+		width: 800px;
+	}
+
+	.bloc-container{
+		width: 100%;
+		margin-top: 62px;
+	}
+
+
+	.container-icone .icone{
+		width: 62%;
+		margin-top: 0px;
+   		margin-right: 6px;
+	}
+
+	.container-ecrit{
+		width: 80%;
+	}
+
+	.container-ecrit h3{
+		font-size: 1.2em;
+		line-height: 44px;
+	}
+
+	.section2 div.container-ecrit p{
+		width: 90%;
+		line-height: 26px;
+		font-size: 1.2em;		
+	}
+
+	.section3{
+		width: 100%;
+		height: auto;
+	}
+
+	.projet{
+		padding-top: 0;
+	}
+
+	.ecrit-containt h2{
+		font-size: 1.9em;
+	}
+
+	.cercle2{
+		border: 4px solid white;
+		margin-top: 4px;
+		margin-left: -10px;
+		width: 23px;
+		height: 23px;
+	}
+
+	.ecrit-containt p{
+		margin-top: -33px;
+		font-size: 1.2em;
+	}
+
+	.section3 .bloc-container3{
+		margin-bottom: 22px;
+	}
+
+	.boutons{
+		margin: auto 38.4%;
+	}
+
+	.bouton-A, .bouton-B, .bouton-C, .bouton-D{
+		font-size: 1.2em;	
+		padding: 7px;
+	}
+
+	.dropdown{
+		width: 90%;
+		margin-top: 30px;
+	}
+
+	.section4 {
+		width: auto;
+		height: 670px;
+	}
+
+	#formulaire{
+		width: 20%;
+		height: auto;
+   		margin-top: -42px;
+		z-index: 2;
+	}
+
+	#formulaire h2{
+		font-size: 1.2em;
+	}
+
+	#formulaire p{
+	    font-size: 0.8em;
+	    line-height: 20px;
+	}
+
+	#case input{
+		font-size: 0.8em;
+	}
+
+#case textarea{
+		font-size: 0.8em;
+	}
+
+	iframe{
+		z-index: 0;
+	}
+
+	.fond_bleu{
+		z-index: 1;
+	}
+}

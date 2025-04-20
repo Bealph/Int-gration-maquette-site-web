@@ -1,0 +1,225 @@
+@media only screen and (min-width: 1601px){
+	html, body{
+		width: 100%;
+		height: auto;
+		box-sizing: content-box;
+		margin: auto;
+	}
+
+	header{ height: 100px; }
+
+	.en-tete .logo{ 
+		width: 20%;
+		margin: .8% -50px; 
+	}
+
+	.menu{
+		margin-top: -20px;
+	}
+
+	header nav ul li{
+		font-size: 1.5em;
+	}
+
+	.section1{
+		margin: 0;
+		padding-bottom: 110px;
+	}
+
+	.section1 .text{
+		top: 30%;
+	}
+
+	.section1 .text h1{
+		width: 1500px;
+		font-size: 2.8em;
+	}
+
+	.section1 div.ligne{
+		width: auto;
+	}	
+
+	.section1 .text div.ligne p{
+		font-size: 1.3em;
+		width: 640px;
+		margin-top: -20px;
+		margin-bottom: 40px;
+	}
+
+	.bouton-entree{
+		font-size: 1.4em;
+	}
+
+
+	.section2{
+		width: 100%;
+		margin-bottom: 215px;
+	}
+
+	.service:nth-child(1){margin-top: 4.5%;}
+
+
+	.cercle1{
+		margin-top: 11px;
+		width: 25px;
+		height: 25px;
+	}
+
+	.nos_s p{
+		margin-top: -22px;
+		font-size: 1.3em;
+	}
+
+	.service:nth-child(2){
+		padding: 0
+	}
+
+	.box:nth-child(1){
+		margin-left: 300px;
+	}
+
+	.box:nth-child(2){
+		width: 100%;
+		margin-left: 250px;
+	}
+
+	.img-container img.img-box{
+		width: auto;
+		height: 90%;
+	}
+
+	.container{
+		margin-top: 0px;
+	}
+
+
+	.bloc-container{
+		width: 100%;
+		margin-top: 130px;
+	}
+
+
+	.container-icone .icone{
+		width: 62%;
+		margin-top: 0px;
+   		margin-right: 6px;
+	}
+
+	.container-ecrit{
+		width: 80%;
+	}
+
+	.container-ecrit h3{
+		font-size: 1.3em;
+		line-height: 44px;
+	}
+
+	.section2 div.container-ecrit p{
+		width: 90%;
+		line-height: 30px;
+		font-size: 1.3em;		
+	}
+
+	.section3{
+		width: 100%;
+		height: auto;
+	}
+
+	.projet{
+		padding-top: 1%;
+	}
+
+	.cercle2{
+		border: 4px solid white;
+		margin-top: 4px;
+		margin-left: -10px;
+		width: 25px;
+		height: 25px;
+	}
+
+	.ecrit-containt p{
+		margin-top: -23px;
+		font-size: 1.3em;
+	}
+
+	.section3 .bloc-container3{
+		margin-bottom: 22px;
+	}
+
+	.boutons{
+		margin: auto 38.4%;
+	}
+
+	.bouton-A, .bouton-B, .bouton-C, .bouton-D{
+		font-size: 1.3em;	
+		padding: 8px;
+	}
+
+	.dropdown{
+		width: 80%;
+		margin-top: 30px;
+	}
+
+	figure img{
+	    width: 350px; 
+	}
+
+	figcaption{
+		height: 91px;
+	}
+
+	figcaption span{
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	figcaption p{
+		padding-top: 5px;
+		font-size: 16px;
+	}
+
+	figcaption .fa-eye{
+		border: 2px solid white;
+		padding: 5%;
+	}
+
+	.section4 {
+		width: auto;
+		height: 830px;
+	}
+
+	#formulaire{
+		width: 20%;
+		height: auto;
+   		margin-top: -78px;
+		z-index: 2;
+	}
+
+	#formulaire h2{
+		font-size: 1.3em;
+	}
+
+	#formulaire p{
+	    font-size: 1em;
+	    line-height: 30px;
+	}
+
+	#case input{
+		font-size: 1em;
+	}
+
+	#case textarea{
+		font-size: 1em;
+	}
+
+	iframe{
+		width: 100%;
+		height: 800px;
+		z-index: 0;
+	}
+
+	.fond_bleu{
+		z-index: 1;
+	}
+
+}

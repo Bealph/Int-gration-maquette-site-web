@@ -1,0 +1,452 @@
+@media screen and (min-width: 431px) and (max-width: 768px){
+	header{
+		z-index: 999;
+		height: 45px;
+	}
+	.section1{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.en-tete .logo{
+		width: 25%;
+		margin: 10px -20px;
+	}
+
+	.en-tete .menu{
+		position: absolute;
+		width: 90px;
+		height: 100%;
+		right: -40px;
+		top: 80px;
+		padding-bottom: 0;	  
+	}
+
+
+	.en-tete .menu:nth-child(2){
+		height: 110px;
+		box-sizing: content-box;
+	}
+
+	.en-tete .menu #menuToggle{
+		display: block;
+		position: relative;
+		z-index: 1;
+		user-select: none;
+		margin-top: 9%;
+	}
+
+	#menuToggle span{
+	  display: block;
+	  width: 20px;
+	  height: 2px;
+	  margin-bottom: 11px;
+	  position: relative;
+	  background: #34ace0;
+	  border-radius: 3px;
+	  z-index: 1;
+	  transform-origin: 4px 0px;
+	  margin-top: -8%;
+	  right: 0px;
+	  top: -56px;
+	}
+
+	#menuToggle span:nth-last-child(3){
+		margin-bottom: 10px;
+	}
+
+	.en-tete .menu ul{
+		display: block;
+		width: auto;
+		height: 100%;
+		padding: 10px 0;
+		margin-top: 30%;
+		margin-left: -90%;
+		box-sizing: border-box;
+		color: black;
+		visibility: hidden;
+		border: 1px solid red;
+	}
+
+	.en-tete .menu ul{}
+
+	.en-tete .menu #menuToggle ul li{
+		width: 55%;
+		margin-left: 20%;
+		transition: margin-left 5s ease-in-out;
+	}
+
+	.en-tete .menu #menuToggle ul li a{
+		color: #fff;
+		font-size: 0.8em;
+		font-weight: bold;
+		padding: 10px 0 5px 0;
+		border-top: none;
+		color: black;
+	}
+
+	#menuToggle ul li a:hover{
+  	  background-color: #34ace0;
+	}
+
+	#menuToggle input{
+		display: block;
+		width: 60px;
+		height: 34px;
+		top: -20%;
+		right: 60px;
+		position: absolute;
+		cursor: pointer;
+		opacity: 0;
+		z-index: 2;
+	}
+	
+
+	#menuToggle input:checked ~ ul{
+ 		transform: translate(150%, -150%);
+	}
+
+
+	.slider{
+		margin: 45px 0 20px  0!important;
+	}
+
+	.slide .bar1, .slide .bar2{
+		width: 9%;
+		height: 97.5%;
+		border-bottom: 2px solid #34ace0;
+	}
+
+	.slider .slides .fleche-gauche{
+		width: 35%;
+		height: 17%;
+		right: 64%;
+	}
+
+	.slider .slides .fleche-droit{
+		width: 35%;
+		height: 17%;
+		left: 64%;
+	}
+
+	.slider .text{
+		position: absolute;
+		width: auto;
+		top: 70px;
+		left: 60px;
+	}
+
+	.slider .text h1, .slider .text span{
+		font-size: 14px;
+		margin-left: 0px;
+		margin-bottom: 30px;
+	}
+
+	.slider .text .ligne{
+		margin-top: -10%;
+		font-size: 7.2px;
+	}
+
+	.bouton-entree{
+		padding: 2.5px;
+		font-size: 8px;
+	}
+
+	.slide .bar1, .slide .bar2{
+		width: 9%;
+		height: 98.9%;
+		border-bottom: 2px solid #34ace0;
+	}
+
+
+	.section2{
+		width: 100%;
+		margin: auto;
+		padding: 0;		
+	}
+
+	#zone{
+		width: 100%;
+		margin: auto;
+		padding: 0;
+	} 
+
+	.service{
+		width: 100%;
+		padding: 0;
+	}
+
+	.nos_s{
+		width: 100%;
+		padding: 0;
+	}
+
+	.nos_s h2{
+		margin:auto 40%;
+		padding: 0;
+		font-size: 13px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	#zone .cercle{
+		margin:0;
+		height: 15px;
+		padding: 20px 0;
+	}
+
+	#zone .cercle .cercle1{
+		width: 10px;
+		height: 10px;
+		top: 4px;
+	}
+
+	.service .nos_s p{
+		font-size: 8px;
+		line-height: 15px;
+		margin: -38px 20px 0 20px;
+	}
+
+	.service:nth-child(2){
+		display: block;
+	}
+
+	.box{ margin-left: -14.5%; }
+
+
+	.img-container{
+		width: 70%;
+		margin: 0 14%;
+	}
+
+	img.img-box{
+		width: 30%;
+		margin: auto 15.5%;
+	}
+
+	.box:nth-child(2){
+		margin: auto 20%;
+	}
+
+
+	.bloc-container{
+		margin-top: -10px;
+		margin-left: -60%;
+		padding: 0;
+	}
+
+	.bloc-container .container{
+		width: auto;
+		margin-top: 0;
+	}
+
+	.bloc-container .container .container-icone .icone{
+		width: 35px;
+		height: auto;
+		padding: 0;
+		margin-right: 10px;
+		margin-top: 1px;
+	}
+
+	.bloc-container .container .container-ecrit{
+		width: auto;
+	}
+
+	.bloc-container .container .container-ecrit h3{
+		margin: 0;
+		line-height: 20px;
+		height: 10px;
+		font-size: 9px;
+	}
+
+	.bloc-container .container .container-ecrit p{
+		margin: 10px 0;
+		padding: 0;
+		line-height: 13px;
+		font-size: 9px;
+	}
+
+	.section3{
+		width: 100%;
+		height: 100%;
+		margin: auto;
+		padding: 0;
+	}
+
+	.projet{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.bloc-container3{
+		margin: 20px auto;
+	}
+
+	.ecrit-containt{
+		margin: auto 24.5%;
+	}
+
+	.ecrit-containt h2{
+		font-size: 13px;
+	}
+
+	.ecrit-containt p{
+		font-size: 8px;
+		margin-top: -50px;
+	}
+
+	.cercle{
+		margin:0;
+		height: 15px;
+		padding: 5px 0;
+	}
+
+	.cercle .cercle2{
+		width: 10px;
+		height: 10px;
+		top: -7px;
+		border: 2px solid white;
+	}
+
+	.boutons{
+		width: auto;
+		box-sizing: border-box;
+		margin: auto 37%;
+	}
+
+	.box-button{
+		width: 50%;
+		height: 13px;
+		padding: 0;
+		margin: 0;
+	}
+
+	.bouton-A, .bouton-B, .bouton-C, .bouton-D{
+		font-size: 7px;
+		padding: 2.5px .5px 0 .5px;
+	
+	}
+
+	.bouton-A{
+		border-bottom: 1px solid #0984e3;
+		border-top-left-radius: 2px;
+		border-bottom-left-radius: 2px;
+	}
+
+	.bouton-B:hover, .bouton-C:hover, .bouton-D:hover{
+		border-bottom: 1px solid #0984e3;
+	}
+
+	.bouton-D{
+		border-top-right-radius: 2px;
+		border-bottom-right-radius: 2px;
+	}
+
+	.bouton-D:hover{
+		border-top-right-radius: 2px;
+		border-bottom-right-radius: 2px;
+	}
+
+	.bouton-A ~ .triangle,
+	.bouton-B:hover ~ .triangle,
+	.bouton-C:hover ~ .triangle,
+	.bouton-D:hover ~ .triangle{
+		border-top: 2.5px solid #0984e3;
+		border-right: 2.5px solid transparent;
+		border-left: 2.5px solid transparent;
+	}
+
+	.dropdown{ margin: 3% 20%; }
+
+	figure{
+		margin: 5px;
+	}
+
+	.section3 figure img{ width: 130px; } 
+
+	figcaption{ height: 34px; }
+
+	figcaption span{ 
+		font-weight: bold;
+		font-size: 7px;	
+	}
+
+	figcaption p{ 
+		margin-top: -1px;
+		font-size: 7px; 
+	}
+
+	figcaption .fa-eye{
+		border: 0.5px solid white;
+		bottom: 80%;
+		padding: 2%;
+	}
+
+	
+	.section4{
+		display: block;
+		width: 100%;
+		height: auto;
+		padding: 0;
+		margin: 0;
+	}
+
+	#formulaire{
+		position: relative;
+		margin-top: 10px;
+		margin-left: 40%;
+		width: 30%;
+		height: 270px;
+		visibility: visible;
+		z-index: 1;
+		border: 1px solid silver;
+	}
+
+	#formulaire h2, #formulaire p{
+		margin-left: 3px;
+	}
+
+	#formulaire h2{
+		font-size: 10px;
+	}
+
+	#formulaire p{
+		font-size: 7px;
+	}
+
+	#case{
+		height: 390px;
+		z-index: 0;
+	}
+	.name, .email, .subject, .message{ margin: 2% 0 2% 0; }
+
+	#case input, #case textarea{
+		border: none;
+		font-size: 7px;
+		padding: 2px;
+	}
+
+	#case input{ display: block; }
+
+	button{
+		font-size: 7px;
+	}
+
+	iframe{
+		position: relative;
+		 margin-top: 15px;
+		width: 99%;
+		height: 350px;
+		border: none;
+	}
+
+	div.fond_bleu{
+		margin-top: 15px;
+		width: 99.5%;
+		height: 350px;
+		z-index: 1;
+	}
+	
+}
